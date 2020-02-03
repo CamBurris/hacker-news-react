@@ -1,0 +1,43 @@
+:root {
+  --bg-color: #282a36;
+  --txt-color: #f8f8f2;
+  --accent-color: #ff79c6;
+  --secondary-color: #bd93f9;
+  --info-color: #6272a4;
+  --secondary-bg-color: #44475a;
+
+  background: var(--bg-color);
+  color: var(--txt-color);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  overflow-y: scroll;
+  scrollbar-color: var(--secondary-bg-color) var(--bg-color);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--secondary-color);
+}
+
+h2 {
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+code {
+  background: var(--secondary-bg-color);
+  overflow: auto;
+  display: inline-block;
+  max-width: 100%;
+}
+
+pre {
+  margin: 0;
+}

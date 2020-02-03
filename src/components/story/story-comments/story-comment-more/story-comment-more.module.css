@@ -1,0 +1,25 @@
+.button {
+  padding: 0;
+  background: transparent;
+  color: var(--txt-color);
+  font-family: "Noto Sans", sans-serif;
+  border: 0;
+  text-align: left;
+  /* width: 100%; */
+  display: flex;
+  flex: 1 0 auto;
+  width: 100%;
+  outline: none;
+  align-items: stretch;
+}
+
+.button:focus .buttonContent {
+  background: var(--secondary-bg-color);
+}
+
+.buttonContent {
+  padding: 12px;
+  background: #21222c;
+  margin: 1px 0;
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+.info {
+  color: var(--info-color);
+}
+
+.story {
+  margin: 2rem 0;
+}
+
+.story a {
+  display: inline-block;
+}

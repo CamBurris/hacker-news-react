@@ -1,0 +1,49 @@
+.comment {
+  padding: 0;
+  background: transparent;
+  color: var(--txt-color);
+  font-family: "Noto Sans", sans-serif;
+  border: 0;
+  text-align: left;
+  /* width: 100%; */
+  display: flex;
+  flex: 1 0 auto;
+  width: 100%;
+  outline: none;
+  align-items: stretch;
+}
+
+.comment:focus .commentContent {
+  background: var(--secondary-bg-color);
+}
+
+.commentContent {
+  padding: 12px;
+  background: #21222c;
+  margin: 1px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.comment p {
+  margin: 0;
+}
+
+.childCount {
+  background: var(--accent-color);
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: opacity 200ms ease-in-out;
+}
+
+.hideChildCount {
+  opacity: 0;
+}
+
+.commentText {
+  font-size: 1.25rem;
+}
+
+.commentText p {
+  margin: 1rem 0;
+}

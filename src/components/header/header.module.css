@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  height: 36px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: var(--secondary-bg-color);
+  align-items: center;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+  padding: 0 4px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
