@@ -46,7 +46,12 @@ const StoryCommentMore: React.FC<StoryCommentMoreProps> = ({
   const [getComments, { called, data }] = useLazyQuery(GET_COMMENTS_MORE);
   const loadComments = () => {
     if (!called) {
-      getComments({ variables: { id: parentId, offset: loadedChildren - 1 } });
+      getComments({
+        variables: {
+          id: parentId,
+          offset: loadedChildren === 0 ? 0 : loadedChildren - 1
+        }
+      });
     }
   };
 
